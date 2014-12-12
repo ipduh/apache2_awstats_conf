@@ -1,0 +1,8 @@
+# Debian Packaged AWStats
+# modified by g0 < http://ipduh.com/contact >
+
+# You may override /etc/awstats.conf directives here (/etc/awstats.conf.local).
+# This file is not updated with each new upstream release.
+
+DNSLookup=0
+LoadPlugin="ipduh_intel"
