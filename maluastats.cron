@@ -1,6 +1,0 @@
-
-#Merge Apache Access Logs and Update AWStats
-0 2 * * * www-data [ -x /usr/share/awstats/tools/maluawstats.sh 2>/dev/null ] 
-
-# Generate static reports:
-#10 03 * * * www-data [ -x /usr/share/awstats/tools/buildstatic.sh ] && /usr/share/awstats/tools/buildstatic.sh
